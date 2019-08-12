@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     ImageButton imageButton;
+    ImageButton imageButtondos;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,15 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(MainActivity.this,apartadouno.class);
+                startActivity(a);
+
+            }
+        });
+        imageButton = findViewById(R.id.button4);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,Activity_Buscador.class);
                 startActivity(a);
 
             }
