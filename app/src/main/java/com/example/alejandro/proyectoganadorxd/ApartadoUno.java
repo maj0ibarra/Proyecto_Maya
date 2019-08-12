@@ -5,7 +5,7 @@ import android.webkit.WebView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class apartadouno extends AppCompatActivity {
+public class ApartadoUno extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

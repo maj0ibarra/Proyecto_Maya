@@ -14,7 +14,6 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
-import com.squareup.picasso.Picasso;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -22,14 +21,23 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
-import android.webkit.WebView;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     ImageButton imageButton;
-    ImageButton imageButtondos;
+    ImageButton buttondos;
+    ImageButton buttontres;
+    ImageButton buttoncuatro;
+    ImageButton buttoncinco;
+    ImageButton buttonseis;
+    ImageButton buttonsiete;
+    ImageButton buttonocho;
+    ImageButton buttonnueve;
+    ImageButton buttondiez;
+    ImageButton buttononce;
+    ImageButton buttondoce;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,16 +47,106 @@ public class MainActivity extends AppCompatActivity
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(MainActivity.this,apartadouno.class);
+                Intent a = new Intent(MainActivity.this, ApartadoUno.class);
                 startActivity(a);
 
             }
         });
-        imageButton = findViewById(R.id.button4);
-        imageButton.setOnClickListener(new View.OnClickListener() {
+        buttondos = findViewById(R.id.button4);
+        buttondos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(MainActivity.this,Activity_Buscador.class);
+                startActivity(a);
+
+            }
+        });
+        buttontres = findViewById(R.id.button6);
+        buttontres.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoTres.class);
+                startActivity(a);
+
+            }
+        });
+        buttoncuatro = findViewById(R.id.button8);
+        buttoncuatro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoCuatro.class);
+                startActivity(a);
+
+            }
+        });
+        buttoncinco = findViewById(R.id.button10);
+        buttoncinco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoCinco.class);
+                startActivity(a);
+
+            }
+        });
+        buttonseis = findViewById(R.id.button12);
+        buttonseis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoSeis.class);
+                startActivity(a);
+
+            }
+        });
+        buttonsiete = findViewById(R.id.button14);
+        buttonsiete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoSiete.class);
+                startActivity(a);
+
+            }
+        });
+        buttonocho = findViewById(R.id.button16);
+        buttonocho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoOcho.class);
+                startActivity(a);
+
+            }
+        });
+        buttonnueve = findViewById(R.id.button18);
+        buttonnueve.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoNueve.class);
+                startActivity(a);
+
+            }
+        });
+        buttondiez = findViewById(R.id.button20);
+        buttondiez.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoDiez.class);
+                startActivity(a);
+
+            }
+        });
+        buttononce = findViewById(R.id.button22);
+        buttononce.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoOnce.class);
+                startActivity(a);
+
+            }
+        });
+        buttondoce = findViewById(R.id.button24);
+        buttondoce.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent a = new Intent(MainActivity.this,ApartadoDoce.class);
                 startActivity(a);
 
             }
@@ -104,7 +202,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Bienvenido al mejor proyecto", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

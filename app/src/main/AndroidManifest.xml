@@ -15,15 +15,35 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ListViewAdapter"></activity>
+            android:name=".ApartadoDoce" android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".Activity_Buscador"></activity>
+            android:name=".ApartadoOnce" android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".BuscadorClass"></activity>
+            android:name=".ApartadoDiez" android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".apartadouno"></activity>
+            android:name=".ApartadoNueve" android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ApartadoOcho" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ApartadoSiete" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ApartadoSeis" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ApartadoCinco" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ApartadoCuatro" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ApartadoTres" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ListViewAdapter" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Activity_Buscador" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".BuscadorClass" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ApartadoUno" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".MainActivity" android:screenOrientation="portrait"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
